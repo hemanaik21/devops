@@ -7,3 +7,4 @@ case $choice in
         3)pwd;;
         *)echo "invalid"
 esac
+echo "end of pgm"
