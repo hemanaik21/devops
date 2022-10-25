@@ -1,0 +1,25 @@
+Declare Commits
+#	Git Command	Description
+1	git commit -m “(message)”	Commits the changes with a custom message.
+2	git commit -am “(message)”	Adds all changes to staging and commits them with a custom message.
+3	git checkout	Switch to the provided Commit.
+4	git show	Outputs the metadata and content changes of the specified Commit.
+5	git reset –hard	Discard all the history and changes back to a given Commit.
+6	git reset –hard Head	Discards all local changes in the working directory.
+7	git log	Shows the history of changes.
+8	git log -p	Shows the full display of each Commit.
+9	git log -oneline	Shows the list of Commits with a simple message.
+10	git log –follow (file_name)	List the history for the current file.
+11	git blame (file_name)	Shows all changes along with the name of the user.
+12	git stash	Temporarily saves all modified tracked files.
+13	git stash pop	Restores the most recently stashed files.
+14	git stash list	List all stash changedsets.
+15	git stash apply	Apply the latest stashed contents.
+16	git stash drop	Discard the most recently stashed files
+17	git stash apply (stash id)	Re-apply a specific stash content by ID.
+18	git stash drop (stash_id)	Drop a specific stash content by ID.
+19	git push	Push changes to the Origin.
+16	git push origin (branch_name)	Push branch to the Origin.
+17	Git push -f origin (branch_name)	Force pushes the changes to the Origin.
+18	git tag (tag_name)	Define a tag for a version.
+19	git push	Push changes to the Origin.

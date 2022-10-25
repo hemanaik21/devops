@@ -1,0 +1,14 @@
+Local File Changes
+#	Git Command	Description
+1	git add (file name)	Add the current changes to the file to staging.
+2	git add .	Add the whole directory changes to staging (no delete files).
+3	git add -A	Add all new, modified and deleted files to staging.
+4	git rm (file_name)	Removes the file and untracks (stop tracking) it.
+5	git rm –cached (file_name)	Untracks the current file.
+6	git mv  (file_name) (new_file_name)	Changes the filename and prepare it for Commit.
+7	git checkout <deleted file name>	Recovers the deleted file and prepares it for Commit
+8	git status	Shows the status of the modified files.
+9	git ls-files –other –ignored –exclude-standard	Shows the list of all ignored files.
+10	git diff	Shows unstaged changes in the index and the working directory.
+11	git diff –staged	Shows file differences between staging and the last file version.
+12	git diff (file_name)	Shows changes in a single file compared to the last Commit.
