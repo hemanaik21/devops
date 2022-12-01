@@ -1,7 +1,10 @@
 #!/bin/bash
 #arr=(10 8 20 300 1)
+set -x
 echo "enter array list to sort"
 read -a arr
+len=${#arr[*]}
+echo ${len}
 echo "array before sorted"
 echo ${arr[*]}
 for((i=0; i<5; i++))
