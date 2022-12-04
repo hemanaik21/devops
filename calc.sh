@@ -1,52 +1,51 @@
-#/bin/bash
-var1="yes"
-while [ $var1 = "yes" ];
+#!/bin/bash
+var="yes"
+while [ "$var" == "yes" ];
 do
-echo "Enter 1:add 2:sub 3:mul 4:div"
-read num
-if [ $num -eq 1 ];
+echo "select your choice 1:add 2:sub 3:mul 4:div"
+read choice
+echo "enter two numbers"
+read num1
+read num2
+if [ $choice -eq 1 ] ;
 then
-        echo "Enter two numbers for addtion"
-        read num1
-        read num2
         sum=`expr $num1 + $num2`
-        echo "sum of two numbers is $sum"
 
-elif [ $num -eq 2 ];
+        echo "sum of $num1 and $num2 is ${sum}"
+
+elif [ $choice -eq 2 ] ;
 then
-        echo "Enter two numbers for subtraction"
-        read num1
-        read num2
+        if [ $num1 -lt $num2 ];
+        then
+                temp=$num1
+                num1=$num2
+                num2=$temp
+        fi
         sub=`expr $num1 - $num2`
-        echo "sub of two numbers is $sub"
+        echo "sub of $num1 and $num2 is ${sub}"
 
-elif [ $num -eq 3 ];
+elif [ $choice -eq 3 ] ;
 then
-        echo "Enter two numbers for multiplication"
-        read num1
-        read num2
         mul=`expr $num1 \* $num2`
-        echo "mul of two numbers is $mul"
 
-
+        echo "mul of $num1 and $num2 is ${mul}"
 else
+        if [ $num1 -lt $num2 ];
+        then
+                temp=$num1
+                num1=$num2
+                num2=$temp
+        fi
 
-        echo "Enter two numbers for division"
-        read num1
-        read num2
+
         div=`expr $num1 / $num2`
-        echo "div of two numbers is $div"
 
-
-
+        echo "div of $num1 and $num2 is ${div}"
 
 fi
-
-echo "print yes to continue and no to exit"
-read x
-if [ $x = "no" ];
-then 
-	break
+echo "enter yes to continue and no to exit"
+read str
+if [ "$str" == "no" ];
+then
+	var="no"
 fi
-done
-echo "thank you:)"
