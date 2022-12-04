@@ -49,3 +49,4 @@ if [ "$str" == "no" ];
 then
 	var="no"
 fi
+echo "THANK YOU:)"
