@@ -13,6 +13,5 @@ do
         done
         echo "${rev}"
 done<$file
-
 echo "reversing file lines too"
 nl $file | sort -nr | awk -F " " '{print $2,$3,$4}'
