@@ -13,5 +13,16 @@ do
         done
         echo "${rev}"
 done<$file
+<<<<<<< HEAD
 echo "reversing file lines too"
 nl $file | sort -nr | awk -F " " '{print $2,$3,$4}'
+=======
+
+
+echo "#########################"
+echo "reverse file lines too"
+var=`nl $file | sort -nr | awk -F " " '{print $2,$3,$4}'`
+echo "${var}"
+
+
+>>>>>>> 08d5250 (conflict resolved successfully)
