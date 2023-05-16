@@ -1,0 +1,75 @@
+13bfb2d Update testfile from Jenkins Pipeline
+88f6bb5 Add testfile from Jenkins Pipeline
+ecfd946 add
+f9acea5 add
+e95541b add
+b75d631 add
+cfd3f57 adding pom.xml
+1c498e1 Update jenkinsfiles
+6aeecf2 update jenkin files
+e9813ee Create jenkinsfiles
+f503cc9 adding login.sh file
+185ab19 added from local mc
+8556491 modified insert.sh
+b52028f Merge branch 'b2'
+5a560b5 removed file.txt
+49263e4 conflict resolved
+3a45ab7 modified xyz.txt
+3795c82 modified emp.txt
+a576f4b updated emp.txt
+832710a modified addlinenum file
+75a4678 Merge branch 'b2'
+25d62dc modified insert.sh
+e97fd17 removed abc.txt in b2
+d84e869 adding file.txt file
+39f8eef adding a.txt
+790b399 Revert "adding index file"
+3ba5bcb Revert "Revert "dltd file.txt files""
+47a7aa3 adding index file
+f66514d Revert "dltd file.txt files"
+bda486f dltd file.txt files
+a9d34a1 adding file.txt
+1694cf2 dltd file.txt
+99005e6 adding file.txt file
+9ee06e9 Revert "reverted temp1.txt"
+89e0b94 addded some content in temp1.txt
+b806041 recoverd revfile
+b329e69 added some content
+0f788d1 resolved
+60e7005 modified emp.txt
+7b36bd9 Revert "reverting back"
+442c135 modified
+46ccbc1 new commits
+b6f1f91 created temp file
+428d27c reversing file lines too
+c840513 created temp file
+481c951 adding calc script
+26e88e9 deleted calc in b2
+edd9935 added thank u stmt
+d7ccade modified code in calc script
+ff430d4 adding service script
+1bf976d adding mem script
+f984e06 adding insert script
+4f994bf adding filespace script
+b181406 adding count script
+800ca1f adding check script
+fb38305 adding fibonacci script
+bcb3293 adding reverse script
+6f411cc adding emp script
+83386a8 adding array script
+bc354c5 added linenum file
+22d0281 modified bubblesort.sh
+564d32c deleting syntax files
+c8092bc gsyntx1 file deleted
+eb4dabe adding bubblesort file
+a5a7d72 removed hello.txt file
+e41abd9 adding hello.sh
+9ea4a79 adding factorial.sh script
+bb91b2c deleted gsyntx5.txt file
+714bb3a deleted a file
+7353651 adding syntax files
+64213af adding biggestnum.sh file
+74f1dac adding factorial script
+96964ba Update calc.sh
+7297166 added one more echo stmt
+fc033be adding scripts to repo
